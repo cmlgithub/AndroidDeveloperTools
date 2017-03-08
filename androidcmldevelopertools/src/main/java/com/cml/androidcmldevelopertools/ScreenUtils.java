@@ -13,6 +13,12 @@ import android.view.WindowManager;
 
 public class ScreenUtils {
 
+    /**
+     * Get DisplayMetrics
+     * eg DisplayMetrics displayMetrics = getScreenMetrics();
+     *          metrics.heightPixels
+     *          metrics.widthPixels
+     */
     public static DisplayMetrics getScreenMetrics(){
         return new DisplayMetrics();
     }
