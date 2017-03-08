@@ -13,6 +13,10 @@ import android.view.WindowManager;
 
 public class ScreenUtils {
 
+    public static DisplayMetrics getScreenMetrics(){
+        return new DisplayMetrics();
+    }
+
     /**
      * Get Screen Width
      */

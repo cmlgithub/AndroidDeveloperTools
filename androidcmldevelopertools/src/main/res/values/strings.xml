@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidCmlDeveloperTools</string>
+    <item type="id" name="imageLoaderId"/>
 </resources>
