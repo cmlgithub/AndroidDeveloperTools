@@ -91,7 +91,7 @@ public class ImageLoader {
     private ImageLoader(Context context){
         mContext = context.getApplicationContext();
 
-        //初始化内存缓存(LruCache)
+        //init memory(LruCache)
         int maxMemory = (int)(Runtime.getRuntime().maxMemory() / 1024);
         int cacheSize = maxMemory /8;
         mMemoryLruCache = new LruCache<String, Bitmap>(cacheSize) {
@@ -101,7 +101,7 @@ public class ImageLoader {
             }
         };
 
-        //初始化sd卡缓存(DiskLruCache)
+        //init sdCard(DiskLruCache)
         File diskCacheDir = getDiskCacheDir(context, DISK_UNIQUENAME);
         if(!diskCacheDir.exists()){
             diskCacheDir.mkdirs();
@@ -138,7 +138,7 @@ public class ImageLoader {
     }
 
     /**
-     * 对url进行md5的处理,防止url中有特殊字符导致不能处理
+     * url -(md5)-> string
      */
     private String hashKeyFormUrl(String url){
         String cacheKey = null;
@@ -189,13 +189,13 @@ public class ImageLoader {
 
     public Bitmap loadBitmap(String uri,int reqWidth ,int reqHeight){
         Bitmap bitmap = null;
-        //从内存中加载图片
+        //get bitmap from memory
         bitmap = loadBitmapFromMemoryCache(uri);
         if(bitmap != null){
             return bitmap;
         }
 
-        //从sd卡中加载图片
+        //get bitmap from sdCard
         try {
             bitmap = loadBitmapFromDiskCache(uri,reqWidth,reqHeight);
             if(bitmap != null){
@@ -266,7 +266,7 @@ public class ImageLoader {
     private Bitmap loadBitmapFromDiskCache(String uri,int reqWidth,int reqHeight) throws IOException {
         Bitmap bitmap = null;
         if(Looper.myLooper() == Looper.getMainLooper()){
-            Log.w(TAG,"不推荐在主线程中加载图片");
+            Log.w(TAG,"mainThread loadImage is not Recommend");
         }
 
         if(mDiskLruCache == null){
