@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class EncryptionUtils {
 
-    /*******************************bitmap url -- > key********************************************/
+    //*******************************bitmap url -- > key********************************************
     public static String hashKeyFormUrl(String url){
         String cacheKey ;
         try {
@@ -34,5 +34,5 @@ public class EncryptionUtils {
         }
         return stringBuilder.toString();
     }
-    /*******************************bitmap url -- > key********************************************/
+    //*******************************bitmap url -- > key********************************************
 }
