@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;

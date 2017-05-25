@@ -1,4 +1,4 @@
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

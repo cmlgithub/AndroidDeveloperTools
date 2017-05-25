@@ -1,4 +1,4 @@
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

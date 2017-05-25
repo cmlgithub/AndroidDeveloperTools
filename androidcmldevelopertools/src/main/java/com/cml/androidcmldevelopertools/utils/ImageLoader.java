@@ -1,4 +1,4 @@
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,6 +11,8 @@ import android.os.StatFs;
 import android.support.v4.util.LruCache;
 import android.util.Log;
 import android.widget.ImageView;
+
+import com.cml.androidcmldevelopertools.R;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

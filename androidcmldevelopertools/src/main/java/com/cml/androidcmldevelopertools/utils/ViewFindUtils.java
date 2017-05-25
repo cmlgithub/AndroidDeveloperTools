@@ -1,4 +1,4 @@
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import android.util.SparseArray;
 import android.view.View;

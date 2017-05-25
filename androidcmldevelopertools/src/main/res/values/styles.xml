@@ -1,0 +1,22 @@
+<resources>
+
+
+    <declare-styleable name="NavigationView">
+
+        <attr name="navigationViewLocation" >
+            <enum name="top" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="navigationViewHeight" format="dimension"/>
+        <attr name="navigationViewWidth" format="dimension"/>
+        <attr name="navigationViewIconHeight" format="dimension"/>
+        <attr name="navigationViewIconWidth" format="dimension"/>
+        <attr name="navigationFrameLayoutBackground" format="color"/>
+        <attr name="navigationLinearLayoutBackground" format="color"/>
+        <attr name="navigationUnselectTextColor" format="color"/>
+        <attr name="navigationSelectTextColor" format="color"/>
+    </declare-styleable>
+
+</resources>

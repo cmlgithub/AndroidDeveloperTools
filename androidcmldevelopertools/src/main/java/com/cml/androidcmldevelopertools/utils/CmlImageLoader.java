@@ -1,4 +1,4 @@
-package com.cml.androidcmldevelopertools;
+package com.cml.androidcmldevelopertools.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,8 +18,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import static com.cml.androidcmldevelopertools.ThreadPoolUtils.THREAD_POOL_EXECUTOR;
 
 /**
  * author：cml on 2017/1/17
@@ -212,7 +210,7 @@ public class CmlImageLoader {
                 }
             }
         };
-        THREAD_POOL_EXECUTOR.execute(loadBitmapTask);
+        ThreadPoolUtils.THREAD_POOL_EXECUTOR.execute(loadBitmapTask);
     }
 
 

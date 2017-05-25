@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bottom_navigation_background"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottomNavigationHeight">
+
+    <com.cml.androiddevelopertools.navigation.ImageRadioButton
+        android:id="@+id/nav1"
+        android:checked="true"
+        android:text="@string/main_bottom_text_one"
+        app:drawableTop="@drawable/bottom_drawable_selector1"
+        style="@style/RadioGroupViewPagerActivityRadioStyle"/>
+
+    <com.cml.androiddevelopertools.navigation.ImageRadioButton
+        android:id="@+id/nav2"
+        android:text="@string/main_bottom_text_two"
+        app:drawableTop="@drawable/bottom_drawable_selector2"
+        style="@style/RadioGroupViewPagerActivityRadioStyle" />
+    <com.cml.androiddevelopertools.navigation.ImageRadioButton
+        android:id="@+id/nav3"
+        android:text="@string/main_bottom_text_three"
+        app:drawableTop="@drawable/bottom_drawable_selector3"
+        style="@style/RadioGroupViewPagerActivityRadioStyle"/>
+    <com.cml.androiddevelopertools.navigation.ImageRadioButton
+        android:id="@+id/nav4"
+        android:background="@null"
+        android:text="@string/main_bottom_text_four"
+        app:drawableTop="@drawable/bottom_drawable_selector4"
+        style="@style/RadioGroupViewPagerActivityRadioStyle"/>
+
+
+</RadioGroup>

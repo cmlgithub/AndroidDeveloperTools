@@ -6,12 +6,12 @@
 
     <TextView
         android:onClick="clickOne"
-        android:text="ImageLoaderSample"
+        android:text="RadioGroup+ViewPager"
         style="@style/mainTextViewStyle" />
 
     <TextView
         android:onClick="clickTwo"
-        android:text="NavigationSample"
+        android:text="FrameLayout+FragmentTabHost"
         style="@style/mainTextViewStyle" />
 
     <TextView

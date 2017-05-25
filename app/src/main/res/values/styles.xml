@@ -1,11 +1,51 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="mainTextViewStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RadioGroupViewPagerActivityRadioStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@drawable/bottom_textcolor_selector</item>
+    </style>
+
+    <declare-styleable name="NavigationView">
+
+        <attr name="navigationViewLocation" >
+            <enum name="top" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="navigationViewHeight" format="dimension"/>
+        <attr name="navigationViewWidth" format="dimension"/>
+        <attr name="navigationViewIconHeight" format="dimension"/>
+        <attr name="navigationViewIconWidth" format="dimension"/>
+        <attr name="navigationFrameLayoutBackground" format="color"/>
+        <attr name="navigationLinearLayoutBackground" format="color"/>
+        <attr name="navigationUnselectTextColor" format="color"/>
+        <attr name="navigationSelectTextColor" format="color"/>
+    </declare-styleable>
 
 </resources>

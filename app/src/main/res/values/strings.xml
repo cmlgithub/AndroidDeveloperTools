@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidDeveloperTools</string>
+
+    <string name="main_bottom_text_one">首页</string>
+    <string name="main_bottom_text_two">次页</string>
+    <string name="main_bottom_text_three">三页</string>
+    <string name="main_bottom_text_four">四页</string>
 </resources>
