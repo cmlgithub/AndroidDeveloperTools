@@ -19,4 +19,20 @@
         <attr name="navigationSelectTextColor" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="LoginBackgroundLogo">
+
+        <attr name="logo" format="reference"/>
+        <attr name="logoWidth" format="dimension"/>
+        <attr name="logoHeight" format="dimension"/>
+        <attr name="logoName" format="string"/>
+        <attr name="logoNameTextSize" format="dimension"/>
+        <attr name="logoNameTextColor" format="color"/>
+        <attr name="logoCopyrightTextSize" format="dimension"/>
+        <attr name="logoCopyrightTextColor" format="color"/>
+        <attr name="logoNameToLogoDistance" format="dimension"/>
+        <attr name="logoCopyright" format="string"/>
+
+    </declare-styleable>
+
+
 </resources>
