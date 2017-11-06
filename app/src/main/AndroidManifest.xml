@@ -15,11 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageLoaderActivity" />
-        <activity android:name=".NavigationActivity"></activity>
+        <activity android:name=".ui.ImageLoaderActivity" />
+        <activity android:name=".ui.NavigationActivity" />
         <activity android:name=".navigation.RadioGroupViewPagerActivity" />
         <activity android:name=".navigation.FrameLayoutFragmentTabHostActivity" />
         <activity android:name=".navigation.CustomNavigationActivity" />
+        <activity android:name=".ui.TotalUseAdapterActivity" />
+        <activity android:name=".ui.ViewPagerAdapterActivity" />
+        <activity android:name=".ui.ListViewAdapterActivity"></activity>
     </application>
 
 </manifest>

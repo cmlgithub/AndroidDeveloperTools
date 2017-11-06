@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.cml.androiddevelopertools.navigation.CustomNavigationActivity;
+import com.cml.androiddevelopertools.ui.ImageLoaderActivity;
+import com.cml.androiddevelopertools.ui.NavigationActivity;
+import com.cml.androiddevelopertools.ui.TotalUseAdapterActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -25,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickThree(View view){
         CustomNavigationActivity.startMe(this);
+    }
+
+    public void clickFour(View view){
+        TotalUseAdapterActivity.startMe(this);
     }
 }

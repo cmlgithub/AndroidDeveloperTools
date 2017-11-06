@@ -19,4 +19,9 @@
         android:text="CustomeBottomNavigation"
         style="@style/mainTextViewStyle" />
 
+    <TextView
+        android:onClick="clickFour"
+        android:text="TotalUseAdapter"
+        style="@style/mainTextViewStyle" />
+
 </LinearLayout>

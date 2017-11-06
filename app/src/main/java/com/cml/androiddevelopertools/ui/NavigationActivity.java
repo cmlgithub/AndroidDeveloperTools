@@ -1,4 +1,4 @@
-package com.cml.androiddevelopertools;
+package com.cml.androiddevelopertools.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.cml.androiddevelopertools.R;
 import com.cml.androiddevelopertools.navigation.CustomNavigationActivity;
 import com.cml.androiddevelopertools.navigation.FrameLayoutFragmentTabHostActivity;
 import com.cml.androiddevelopertools.navigation.RadioGroupViewPagerActivity;

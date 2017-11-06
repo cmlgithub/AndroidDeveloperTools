@@ -1,4 +1,4 @@
-package com.cml.androiddevelopertools;
+package com.cml.androiddevelopertools.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.cml.androidcmldevelopertools.utils.ImageLoader;
+import com.cml.androiddevelopertools.R;
 
 public class ImageLoaderActivity extends AppCompatActivity {
 
